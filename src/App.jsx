@@ -1,20 +1,14 @@
-import "./App.css"
-import 'bootstrap/dist/css/bootstrap.min.css'
+import MainRoutes from "../routes/MainRouter";
 
-import NavbarComponent from './components/NavbarComponent/NavbarComponent';
-import ItemListCointainer from "./components/ItemListContainer/ItemListContainer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 
 function App() {
   return (
     <div>
-      <NavbarComponent/> 
-      <ItemListCointainer greeting="Bienvenid@s a 3D Garage"/>
-      {      }
+      <MainRoutes />
     </div>
-    
   );
 }
 
-
 export default App;
-
